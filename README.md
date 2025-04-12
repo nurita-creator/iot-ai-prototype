@@ -11,7 +11,7 @@ PASSWORD = ""
 UBIDOTS_TOKEN = "BBUS-sXgpjWiZaaEEoRvGP6MJqZ9I3AD3IA"
 DEVICE_LABEL = "ultrasonic_device"
 VARIABLE_LABEL = "distance"
-UBIDOTS_URL = f"http://industrial.api.ubidots.com/api/v1.6/devices/{my-esp32}/"
+UBIDOTS_URL = f"http://industrial.api.ubidots.com/api/v1.6/devices/{"my-esp32"}/"
 
 # Konfigurasi API FastAPI
 API_URL = "http://your_fastapi_server_ip:8000/data"
